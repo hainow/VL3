@@ -1,0 +1,7 @@
+export PATH=/home/lerrelp/anaconda2/envs/tensorflow/bin/:/home/imisra/libs/bin/:/home/imisra/libs/bazel/output/:/usr/local/cuda-7.5/bin:/usr/bin/:/usr/local/bin:/bin
+
+export PYTHONPATH=/home/lerrelp/show_and_tell.tensorflow/sets:/home/lerrelp/anaconda2/envs/tensorflow/
+
+export LD_LIBRARY_PATH=/home/lerrelp/anaconda2/envs/tensorflow/lib:/home/imisra/libs/lib64:/home/imisra/libs/lib:/home/imisra/libs/cudnn-v5.1/lib64:/usr/local/cuda-7.5/lib64:/usr/lib64:/usr/lib
+
+source activate tensorflow
