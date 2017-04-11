@@ -97,8 +97,8 @@ def ord_to_text(ord_list):
     return ''.join(chr(i) for i in ord_list)
 
 if __name__ == '__main__':
-    # tD = textDataLoader('dataset.txt')
-    tD = textDataLoader('dataset_small.txt')
+    tD = textDataLoader('dataset.txt')
+    # tD = textDataLoader('dataset_small.txt')
     batch_size = 50
     length = 50
     feat_size = tD.nFeats
